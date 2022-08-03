@@ -1,0 +1,227 @@
+body{
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    height: 45px;
+    width: 100%;
+    background-color:#F3DAC6; 
+}
+.food_icon{
+    height: 45px;
+    width: 45px;
+    float:left;
+    margin-left: 1%;
+}
+/* .login{
+    display: inline-block;
+    margin-left: 2%;
+}
+.signup{
+    display: inline-block;
+    margin-left: 2%;
+}
+.profile{
+    display: inline-block;
+    margin-left: 2%;
+} */
+#social_icons{
+    float:right
+}
+
+.logo{
+    height: 40px;
+    width: 40px;
+}
+
+
+#search{
+    height:400px;
+    width:100%;
+    /* border:2px solid green; */
+    background-image: url('images/grtfood.jpg');
+    background-repeat:no-repeat;
+    /* background-size: cover; */
+     background-size: 100% 450px;
+}
+
+
+#container{
+    height:350px;
+    width:60%;
+    /* border:2px solid white; */
+    margin-left: 20%;
+    margin-top:2%;
+    position:absolute
+}
+
+#zomato_logo{
+    height:150px;
+    width:150px;
+    background-color:rgba(255, 255, 255, 60%);
+    border-radius: 50%;
+    margin: auto;
+}
+
+#zomato_logo>span{
+    margin-left: 1%;
+    margin-top:6%;
+    position:absolute;
+    font-size:40px;
+}
+
+#heading{
+    font-size:37px;
+    color: white;
+    margin-left: 5%;
+}
+.dropdown{
+    display: block;
+    height:60px;
+    width:98%;
+    margin-top:5%;
+    margin-left:3%;
+    position:absolute;
+}
+
+select{
+    height:50px;
+    width:40%;
+    font-size:20px;
+    text-align: center;
+}
+.restSelect{
+    width:59%;
+}
+
+/* #quicksearch{
+    display:inline-block;  /* used so that there is no overflow of cards if in case new are added*/
+    /* width:80%;
+    margin-left: 20%;
+    margin-top:2%;
+} */ 
+
+#quickSearchContainer{
+    display: inline-block;
+    /* height: 400px; */
+    width: 90%;
+    margin-left: 50px;
+    margin-top: 2%;
+}
+#quickHeading{
+    display:block;     /* used so that both heading and subheading can come one below the other, not needed if we use <p>tag */
+    font-size:30px;
+    color:#f18c44;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    margin-left:2%;
+}
+#quickSubHeading{
+    display:block;
+    font-size:20px;
+    color:gray;
+    line-height: 2;
+    margin-left:2%;
+}
+
+.titleContainer{
+    float: left;
+    height: 255px;
+    width:30%;
+    margin-left:2%;
+    margin-top:2%;
+    margin-bottom:2%;
+    background-color: rgb(240, 248, 216);
+    box-shadow: 10px 5px 5px grey ;
+}
+.titleSubHeading{
+    font-size: 20px;
+    color: black;
+}
+.Component1>img{
+    height: 140px;
+    width : 300px;
+    margin-top: 5%;
+}
+.titleSubHeading>a{
+    display:block;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Helvetica Neue";
+    color: black;
+}
+.titleSubHeading>span{
+    display:block;
+    font-size:20px;
+    color: gray;
+    font-style: italic;
+}
+
+footer{
+    margin-top:5%;
+    height:120px;
+    width:100%;
+    background-color:#f3dac6;
+}
+#footerText{
+    text-align: center;
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+}
+
+/* @media screen and (max-width:1600px){
+    body{
+        background-color:skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(236, 229, 199);
+    }
+}
+@media screen and (max-width:1200px){
+    body{
+        background-color:rgb(233, 222, 171);
+    }
+    .tileContainer {
+        width: 45%;
+    }
+    #heading {
+        font-size: 45px;
+        margin-left: -9%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color:rgb(187, 243, 197);
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color:rgb(170, 171, 185);
+    }
+    .tileContainer {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:500px){
+    body{
+        background-color:rgb(231, 182, 168);
+    }
+} */

@@ -1,0 +1,111 @@
+body{
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+header{
+    height: 45px;
+    width: 100%;
+    background-color:#F3DAC6; 
+}
+#icon{
+    float:left
+}
+#social_icons{
+    float:right;
+}
+.logo{
+    height: 35px;
+    width: 35px;
+}
+.homelogo{
+    height:30;
+    width:30;
+}
+#content{
+    width: 80%;
+    display:inline-block;
+    margin-left: 10%;
+}
+.filterdiv{
+    width:20%;
+    float:left;
+}
+.contentdiv{
+    width:70%;
+    margin-left: 2%;
+    float:left;
+}
+.dishdiv{
+    display: inline-block;
+    height:300px;
+    width:90%;
+    margin-left:5%;
+    margin-top: 2%;
+    box-shadow: 5px 10px 10px gray;
+}
+.dishesimg{
+    display: inline-block;
+}
+.dishesimg > img{
+    display: inline-block;
+    height: 150px;
+    width: 150px;
+    margin-left:15%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+.text{
+    display: inline-block;
+    /* border: 2px solid black; */
+    margin-left: 5%;
+}
+.myButton{
+    height: 30px;
+    background-color: #EF4F5F;
+    color: white;
+    border: none;
+}
+.typeofCuisines{
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: -5%;
+}
+.infodiv{
+    display: inline-block;
+}
+hr{
+    margin-left: 4%;
+    margin-right: 5%;
+    border: 1px solid gray transparent;
+}
+.showmorebutton{
+    height: 50px;
+    width: 100px;
+    background-color: aliceblue;
+    margin-top: 5%;
+    margin-left: 40%;
+    text-align: center;
+    border: none;
+}
+footer{
+    margin-top:5%;
+    height:120px;
+    width:100%;
+    background-color:#f3dac6;
+}
+#footerText{
+    text-align: center;
+}
+.footDiv{
+    height:70px;
+    width:33%;
+    float:left;
+    border-right:2px solid black;
+    text-align: center;
+}
+.noBorder{
+    border:none 
+}
